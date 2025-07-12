@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beauty Salon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans bg-pink-50 text-gray-800">
+
+ <!-- Fixed Header -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-pink-700 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+
+      <!-- Logo + Hamburger -->
+      <div class="w-full flex justify-between items-center md:w-auto">
+        <h1 class="text-2xl font-bold">Beauty Salon</h1>
+        <button id="mobile-menu-toggle" class="md:hidden text-3xl focus:outline-none">
+          ☰
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav id="mobile-menu" class="hidden w-full md:flex md:w-auto flex-col md:flex-row md:space-x-6 mt-4 md:mt-0 text-white font-medium text-left md:text-left">
+        <a href="./index.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Home</a>
+        <a href="./pages/services.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Services</a>
+        <a href="./pages/gallery.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Gallery</a>
+        <a href="./pages/contact.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+<section 
+  class="relative text-center py-60 bg-cover bg-center bg-no-repeat fade-in-up"
+  style="background-image: url('https://static.vecteezy.com/system/resources/previews/038/812/695/large_2x/ai-generated-beautiful-background-for-beauty-salon-advertising-free-photo.jpeg');"
+>
+</section>
+    <!-- Welcome Section -->
+    <section class="bg-pink-200 py-16 pt-20 text-center">
+      <div class="max-w-3xl mx-auto px-4">
+        <h2 class="text-4xl font-bold text-pink-900 mb-4 animate-pulse">Welcome to Beauty Salon</h2>
+        <p class="text-lg text-pink-800">
+          Experience the best in beauty, style, and relaxation.<br> Our expert team is here to bring out your inner glow.
+        </p>
+      </div>
+    </section>
+<!-- About Content Section -->
+  <section class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center fade-in">
+    <div>
+      <img src="https://static.wixstatic.com/media/a5b626_7f946ff1242948548a98323994827366~mv2.jpg" alt="Salon" class="rounded-lg shadow-lg w-full object-cover">
+    </div>
+    <div>
+      <h2 class="text-3xl font-bold text-pink-700 mb-4">About Us</h2>
+      <p class="text-gray-700 mb-4">
+        Beauty Salon was founded with one goal: to make every woman feel confident, radiant, and beautiful. With over 10 years of experience, our stylists and beauty experts deliver personalized care and exceptional service in a relaxing environment.
+      </p>
+      <p class="text-gray-700">
+        From haircuts to makeup, skincare to spa, we use only the best products and techniques to ensure you leave feeling refreshed and Beauty.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="bg-white py-16 px-4 fade-in">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-pink-700 mb-8">Why Choose Us</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-white">
+        <div class="bg-pink-800 p-6 rounded-lg shadow hover:shadow-md transition">
+          <i class="fas fa-star text-3xl mb-3"></i>
+          <h3 class="font-semibold text-lg mb-2">Experienced Staff</h3>
+          <p class="text-sm text-white">Professionals with 10+ years of expertise in beauty & care.</p>
+        </div>
+        <div class="bg-pink-800 p-6 rounded-lg shadow hover:shadow-md transition">
+          <i class="fas fa-heart text-3xl mb-3"></i>
+          <h3 class="font-semibold text-lg mb-2">Personalized Care</h3>
+          <p class="text-sm text-white">Services tailored to your style, skin type, and preferences.</p>
+        </div>
+        <div class="bg-pink-800 p-6 rounded-lg shadow hover:shadow-md transition">
+          <i class="fas fa-gem text-3xl mb-3"></i>
+          <h3 class="font-semibold text-lg mb-2">Premium Products</h3>
+          <p class="text-sm text-white">Only high-quality, salon-tested products for best results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Services Section -->
+    <section class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-pink-700 mb-12">Our Services</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-pink-100 p-6 rounded-lg shadow-md hover:scale-105 transition duration-300">
+            <h4 class="text-xl font-semibold text-pink-800 mb-2">Hair Styling</h4>
+            <p>Trendy haircuts, styling, and coloring to match your unique personality.</p>
+          </div>
+          <div class="bg-pink-100 p-6 rounded-lg shadow-md hover:scale-105 transition duration-300">
+            <h4 class="text-xl font-semibold text-pink-800 mb-2">Facials</h4>
+            <p>Relaxing facials and skin treatments that nourish and refresh your skin.</p>
+          </div>
+          <div class="bg-pink-100 p-6 rounded-lg shadow-md hover:scale-105 transition duration-300">
+            <h4 class="text-xl font-semibold text-pink-800 mb-2">Makeup</h4>
+            <p>Professional makeup for weddings, parties, and every special occasion.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Call to Action Button -->
+    <div class="mt-10 text-center">
+      <a href="./pages/services.html" class="inline-block bg-pink-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-pink-800 transition duration-300">
+        View All Services
+      </a>
+    </div>
+    </section>
+
+    
+<!-- Picture Showcase Section -->
+<section class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center text-pink-700 mb-12">Beauty Salon Gallery</h3>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+        <img src="https://www.collinsdictionary.com/images/full/beautysalon_532739713_1000.jpg" alt="Salon Work" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+        <img src="https://media.istockphoto.com/id/1250022422/photo/woman-receiving-french-manicure-by-beautician.jpg?s=612x612&w=0&k=20&c=33XzHUKzLTK2xqSpk9yT0s9c-geujO1tj8Eb9ULb9fA=" alt="Makeup Session" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+      <div class="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+        <img src="https://www.salon-services.com/on/demandware.static/-/Sites-salon-services-Library/default/dwdff05d40/blog/augustfy19/Feature_5_Skills_Every_Beautician_Should_Brush_Up_On_900x650.jpg" alt="Spa Facial" class="w-full h-64 object-cover hover:scale-105 transition-transform duration-300">
+      </div>
+    </div>
+  </div>
+  <!-- Call to Action Button -->
+    <div class="mt-10 text-center">
+      <a href="./pages/gallery.html" class="inline-block bg-pink-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-pink-800 transition duration-300">
+        View All Gallery
+      </a>
+    </div>
+</section>
+
+
+<!-- Reviews Section -->
+    <section class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-pink-700 mb-12">Our Reviews</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-pink-800 p-6 rounded-lg shadow-md hover:scale-105 transition duration-300">
+            <h4 class="text-xl font-semibold text-white mb-2">Ayesha Noor</h4>
+            <p class="text-white">"Absolutely love the service! My hair has never looked better"</p>
+          </div>
+          <div class="bg-pink-800 p-6 rounded-lg shadow-md hover:scale-105 transition duration-300">
+            <h4 class="text-xl font-semibold text-white mb-2">Falak</h4>
+            <p class="text-white">"The best salon in town! Great for hair, makeup, and skincare"</p>
+          </div>
+          <div class="bg-pink-800 p-6 rounded-lg shadow-md hover:scale-105 transition duration-300">
+            <h4 class="text-xl font-semibold text-white mb-2">Zoya Ali</h4>
+            <p class="text-white">"Professional staff, relaxing atmosphere highly recommended"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Image-->
+<section 
+  class="relative text-center py-60 bg-cover bg-center bg-no-repeat fade-in-up"
+  style="background-image: url('https://static.vecteezy.com/system/resources/previews/038/812/699/large_2x/ai-generated-beautiful-background-for-beauty-salon-extensions-advertising-free-photo.jpeg');">
+</section>
+
+    <!-- Footer -->
+<footer class="bg-pink-700 text-white py-10">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Flex Container -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+      <!-- About Section -->
+      <div>
+        <h2 class="text-xl font-semibold mb-2">Beauty Salon</h2>
+        <p>
+          We enhance your natural beauty with premium styling,<br>
+          beauty treatments, and relaxation therapies.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h2 class="text-xl font-semibold mb-2">Quick Links</h2>
+        <ul>
+          <li class="mb-1">
+            <a href="#services" class="hover:text-gray-200">Services</a>
+          </li>
+          <li class="mb-1">
+            <a href="#contact" class="hover:text-gray-200">Contact</a>
+          </li>
+          <li class="mb-1">
+            <a href="#gallery" class="hover:text-gray-200">Gallery</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Follow Us -->
+      <div>
+        <h2 class="text-xl font-semibold mb-2">Follow Us</h2>
+        <div class="flex space-x-4 mb-3">
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook" class="hover:text-blue-300">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22 12a10 10 0 10-11.6 9.8v-6.9H8v-2.9h2.4V9.6c0-2.4 1.4-3.8 3.6-3.8 1 0 2 .2 2 .2v2.2h-1.1c-1.1 0-1.5.7-1.5 1.5v1.8h2.6l-.4 2.9h-2.2V22A10 10 0 0022 12z"/>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram" class="hover:text-pink-300">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zM12 7.25a4.75 4.75 0 100 9.5 4.75 4.75 0 000-9.5zm0 1.5a3.25 3.25 0 110 6.5 3.25 3.25 0 010-6.5zm5.5-2.1a1.3 1.3 0 110 2.6 1.3 1.3 0 010-2.6z"/>
+            </svg>
+          </a>
+          <!-- TikTok -->
+          <a href="#" aria-label="TikTok" class="hover:text-gray-200">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M9.75 2a1 1 0 011 1v13.5a3.75 3.75 0 11-2.25-3.42V8.5a1 1 0 011-1h.2a5.8 5.8 0 004.3 1.7V11a7.5 7.5 0 01-4.3-1.1v6.8a1.75 1.75 0 10.75 1.5v-1.2a1 1 0 011-1h.25z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div>
+        <h2 class="text-xl font-semibold mb-2">Get in Touch</h2>
+        <ul class="text-sm space-y-2">
+          <li>📍 <span>123 Beauty Street, Lahore, Pakistan</span></li>
+          <li>
+            💬 
+            <a href="https://wa.me/923189993456" target="_blank" class="underline hover:text-green-300">
+              WhatsApp: +92 318 9993456
+            </a>
+          </li>
+          <li>🕒 Mon–Sat, 10am–8pm</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t border-white mt-8 pt-6">
+      <p class="text-center text-sm text-white-100">
+        © 2025 Beauty Salon. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script>
+  const toggleBtn = document.getElementById('mobile-menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+
+  toggleBtn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+    </script>
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-pink-50 text-gray-800 font-sans">
+
+  <!-- Fixed Header -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-pink-700 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between">
+
+      <!-- Logo + Hamburger -->
+      <div class="w-full flex justify-between items-center md:w-auto">
+        <h1 class="text-2xl font-bold">Glamour Salon</h1>
+        <button id="mobile-menu-toggle" class="md:hidden text-3xl focus:outline-none">
+          ☰
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav id="mobile-menu" class="hidden w-full md:flex md:w-auto flex-col md:flex-row md:space-x-6 mt-4 md:mt-0 text-white font-medium text-left md:text-left">
+        <a href="../index.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Home</a>
+        <a href="./about.html" class="block py-2 md:py-0 hover:text-pink-300 transition">About</a>
+        <a href="./services.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Services</a>
+        <a href="./gallery.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Gallery</a>
+        <a href="./contact.html" class="block py-2 md:py-0 hover:text-pink-300 transition">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-32 bg-pink-100 py-16 text-center fade-in">
+    <h1 class="text-4xl font-bold text-pink-700 mb-4">About Glamour Salon</h1>
+    <p class="max-w-xl mx-auto text-pink-600">Discover the story, mission, and passion behind our beauty services.</p>
+  </section>
+
+  <!-- About Content Section -->
+  <section class="max-w-6xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center fade-in">
+    <div>
+      <img src="https://static.wixstatic.com/media/a5b626_7f946ff1242948548a98323994827366~mv2.jpg" alt="Salon" class="rounded-lg shadow-lg w-full object-cover">
+    </div>
+    <div>
+      <h2 class="text-3xl font-bold text-pink-700 mb-4">Our Story</h2>
+      <p class="text-gray-700 mb-4">
+        Glamour Salon was founded with one goal: to make every woman feel confident, radiant, and beautiful. With over 10 years of experience, our stylists and beauty experts deliver personalized care and exceptional service in a relaxing environment.
+      </p>
+      <p class="text-gray-700">
+        From haircuts to makeup, skincare to spa, we use only the best products and techniques to ensure you leave feeling refreshed and glamorous.
+      </p>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="bg-white py-16 px-4 fade-in">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-pink-700 mb-8">Why Choose Us</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-pink-800">
+        <div class="bg-pink-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <i class="fas fa-star text-3xl mb-3"></i>
+          <h3 class="font-semibold text-lg mb-2">Experienced Staff</h3>
+          <p class="text-sm text-gray-600">Professionals with 10+ years of expertise in beauty & care.</p>
+        </div>
+        <div class="bg-pink-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <i class="fas fa-heart text-3xl mb-3"></i>
+          <h3 class="font-semibold text-lg mb-2">Personalized Care</h3>
+          <p class="text-sm text-gray-600">Services tailored to your style, skin type, and preferences.</p>
+        </div>
+        <div class="bg-pink-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <i class="fas fa-gem text-3xl mb-3"></i>
+          <h3 class="font-semibold text-lg mb-2">Premium Products</h3>
+          <p class="text-sm text-gray-600">Only high-quality, salon-tested products for best results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-700 text-white py-8 mt-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-col md:flex-row md:justify-between space-y-8 md:space-y-0">
+        
+        <!-- About -->
+        <div>
+          <h2 class="text-xl font-semibold mb-2">Beauty Salon</h2>
+          <p>We enhance your natural beauty with premium styling, beauty treatments, and relaxation therapies.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h2 class="text-xl font-semibold mb-2">Quick Links</h2>
+          <ul>
+            <li><a href="./services.html" class="hover:text-gray-200">Services</a></li>
+            <li><a href="./about.html" class="hover:text-gray-200">About Us</a></li>
+            <li><a href="./contact.html" class="hover:text-gray-200">Contact</a></li>
+            <li><a href="./gallery.html" class="hover:text-gray-200">Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media -->
+        <div>
+          <h2 class="text-xl font-semibold mb-2">Follow Us</h2>
+          <div class="flex space-x-4">
+            <a href="#" class="hover:text-gray-200">Facebook</a>
+            <a href="#" class="hover:text-gray-200">Instagram</a>
+            <a href="#" class="hover:text-gray-200">TikTok</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-pink-600 mt-8 pt-4 text-center text-sm text-white/80">
+        © 2025 Beauty Salon. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toggle Script -->
+  <script>
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    toggleBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
